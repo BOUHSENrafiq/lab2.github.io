@@ -10,10 +10,6 @@ body {
     padding: 6px;
 }
 
-.row div {
-    border: 1px solid black;
-}
-
 #D {
     font-weight: bold;
     text-align: center;
