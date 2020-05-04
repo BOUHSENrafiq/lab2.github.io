@@ -5,6 +5,7 @@
     list-style: none;
     font-family: "Times New Roman", sans-serif, Serif;
 }
+
 body {
     margin: 0px;
     padding: 6px;
@@ -17,34 +18,44 @@ body {
     font-size: 10px;
     height: 1cm;
 }
-.col-8{
+
+.col-8 {
     height: 3cm;
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
 }
-img{
+
+img {
     margin: 0;
-    height:auto;
-    width:auto;
+    height: auto;
+    width: auto;
     border-radius: 50%;
 }
-#A{
+
+#A {
     height: 5cm;
     text-align: center;
     vertical-align: middle;
     width: auto;
 }
-.col-1{
+
+.col-1 {
     text-align: center;
     vertical-align: middle;
     font-size: 12px;
 }
-#B, #C{
+
+#B, #C {
     font-weight: bold;
 }
 
-#C{
+#C {
     text-align: right;
 }
 
+@media screen and (min-width: 480px) and (max-width: 720px) {
+    img {
+        display: none;
+    }
+}
